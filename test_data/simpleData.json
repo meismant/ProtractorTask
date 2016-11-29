@@ -1,0 +1,10 @@
+{
+  "name": "Maryia demo test",
+  "address": "NY",
+  "cuisines": ["african", "german"],
+  "persons": 0,
+  "paymentType": "visa",
+  "cardNumber": 1234123412341234,
+  "expireDate": "02/2017",
+  "cvc": 290
+}
