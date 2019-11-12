@@ -11,8 +11,8 @@ describe('Protractor Demo App', function() {
     var orderData= {} ;
 
     //test data
-    var name, address;
-    var cuisines;
+    let name, address;
+    let cuisines;
     var persons;
     var paymentType, cardNumber, expireDate, cvc;
     var price = 0;
