@@ -18,14 +18,14 @@ describe('Protractor Demo App', function() {
     var price = 0;
 
     function loadTestData() {
-        name = testData.name ? testData.name : "AutoName";
-        address = testData.address ? testData.address : "AutoAddress";
-        cuisines = testData.cuisines ? testData.cuisines : [];
-        persons = testData.persons ? testData.persons : 0;
+        name        = testData.name ? testData.name : "AutoName";
+        address     = testData.address ? testData.address : "AutoAddress";
+        cuisines    = testData.cuisines ? testData.cuisines : [];
+        persons     = testData.persons ? testData.persons : 0;
         paymentType = testData.paymentType ? testData.paymentType : "visa";
-        cardNumber = testData.cardNumber ? testData.cardNumber : "1234123412341234";
-        expireDate = testData.expireDate ? testData.expireDate : "02/2017";
-        cvc = testData.cvc ? testData.cvc : "290";
+        cardNumber  = testData.cardNumber ? testData.cardNumber : "1234123412341234";
+        expireDate  = testData.expireDate ? testData.expireDate : "02/2017";
+        cvc         = testData.cvc ? testData.cvc : "290";
     }
 
     beforeAll(function() {
